@@ -1,0 +1,136 @@
+/* intro info books */
+.section-bo{
+    background: var(--headerColor);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.section-bo .home-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-bo .home-intro .info-books{
+    width: 40%;
+    text-align: center;
+    word-spacing: 1px;
+}
+.section-bo .home-intro .info-books .title-book{
+    color: #f60505;
+    margin: 10px 0;
+}
+.section-bo .home-intro .info-books p span{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* intro image */
+.section-bo .home-intro .image-continer{
+    width: 50%;
+    
+}
+.section-bo .home-intro .image-continer img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* home-links under home-intro */
+.section-bo .links-books{
+    display: flex;
+    justify-content: space-around;
+    background: var(--secColor);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.section-bo .links-books .link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--headerColor);
+    padding: 5px;
+    border-radius: 10px;
+}
+.section-bo .links-books .link img{
+    width: 25px;
+}
+.section-bo .links-books .link a{
+    text-decoration: none;
+    color: var(--fivColor);
+    margin: 5px 0;
+}
+.section-bo #title-section{
+    text-align: center;
+    color: var(--fivColor);
+    margin: 5px 0;
+}
+
+
+/* design product */
+.section-bo .products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin: 0 0 0 1%;
+    text-align: center;
+}
+.section-bo .products .product{
+    display: flex;
+    flex-direction: column;
+    background: var(--el-color-danger-light-9);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 15%;
+    margin-left: 10px;
+}
+@media (max-width: 767px) {
+    .section-bo .products{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-bo .products .product{
+        width: 39%;
+    }
+    .section-bo .home-intro .info-books p{
+        display: none;
+    }
+
+}
+.section-bo .products .product img{
+    width: 100%;
+    border-radius: 10px;
+}
+.section-bo .products .product .details-bo{
+    margin-top: 3px;
+}
+.section-bo .products .product .details-bo #star{
+    color: yellow;
+}
+.section-bo .products .product .details-bo #d-bo{
+    margin: 5px;
+}
+.section-bo .products .product .details-bo  #dp-bo{
+    background: var(--fourthColor);
+    color: white;
+    border-radius: 10px;
+    padding: 1px;
+}
+.section-bo .products .product .details-bo #btn-add{
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: red;
+    color: #eee;
+    transition: .2s;
+}
+.section-bo .products .product .details-bo #btn-add:hover{
+    cursor: pointer;
+    background: #1da1f2;
+}
+
+
+/* End section inside section */

@@ -1,0 +1,125 @@
+:root {
+    --headerColor: #caf0f8;
+    --secColor: #90e0ef;
+    --thirdColor: #00b4d8;
+    --fourthColor: #0077b6;
+    --fivColor: #03045e;
+}
+.section-ep{
+    background: var(--headerColor);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.section-ep .title-dept{
+    padding: 7px;
+    text-align: center;
+}
+.section-ep .sub-section-links{
+    display: flex;
+    justify-content: space-evenly;
+    background: var(--secColor);
+    padding: 8px;
+    border-radius: 10px;
+    align-items: center;
+}
+.section-ep .sub-section-links .title-sub-section{
+    font-size: 15px;
+}
+.section-ep .sub-section-links a{
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 40%;
+    text-align: center;
+    color: var(--fivColor);
+    transition: .5s;
+}
+.section-ep .sub-section-links a:hover{
+    color: #EEE;
+    background-color: var(--thirdColor);
+}
+.section-ep .title-section{
+    background: var(--secColor);
+    padding: 7px;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: var(--thirdColor);
+    margin-top: 4px;
+}
+
+/* div phones */
+.section-ep .container-all-phones{
+    margin-top: 7px;
+    background: var(--secColor);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.section-ep .container-all-phones .container-phone{
+    padding: 10px;
+    width: 30%;
+    background: #acc0ff;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+.section-ep .container-all-phones .container-phone img{
+    width: 48%;
+    border-radius: 10px;
+}
+.section-ep .container-all-phones .container-phone .details-phone{
+    border: solid;
+    margin-top: 5px;
+    padding: 5px;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+.section-ep .container-all-phones .container-phone .details-phone p{
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    border-width: 1px;
+    border-color: #c3a1e8;
+}
+.section-ep .container-all-phones .container-phone .details-phone #price{
+    background-color: #ff0000;
+    color: #ffffff;
+}
+.section-ep .container-all-phones .container-phone .btns{
+    /* background: yellow; */
+    margin-top: 3px;
+    text-align: center;
+}
+.section-ep .container-all-phones .container-phone .btns #btn{
+    padding: 5px;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    background: #ff0007;
+    color: #ffffff;
+}
+.section-ep .container-all-phones .container-phone .btns #btn:hover{
+    background-color: var(--thirdColor);
+    color: #eee;
+    cursor: pointer;
+}
+/* design on phone */
+@media (max-width: 950px){
+    .section-ep .container-all-phones .container-phone{
+        width: 29%;
+    }
+}
+@media (max-width: 767px){
+    .section-ep .container-all-phones .container-phone{
+        width: 100%;
+    }
+}

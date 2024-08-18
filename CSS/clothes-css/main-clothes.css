@@ -1,0 +1,203 @@
+.section-cl{
+    background: #dcdfe6;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+/* section header */
+.section-cl .header-cl .title-header-cl{
+    padding: 5px;
+    font-size: 20px;
+}
+.section-cl .header-cl .links-header-cl{
+    background: #00c2ff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.section-cl .header-cl .links-header-cl a{
+    text-decoration: none;
+    border: solid;
+    padding: 8px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #fbfbfb;
+    color: #181212;
+}
+.section-cl .header-cl .links-header-cl a:hover{
+    background: #3dadff;
+    color: #eee;
+    cursor: pointer;
+}
+/* end section header */
+
+/* start section inside section */
+
+.section-cl-sec{
+    background: var(--secColor);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.section-cl-sec .title-section-cl{
+    background: var(--headerColor);
+    margin-top: 7px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.section-cl-sec .section-cl-men{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    border-radius: 10px;
+    background: var(--headerColor);
+}
+/* desgin links */
+.section-cl-sec .section-cl-men .men-links{
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-cl-sec .section-cl-men .men-links a{
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--fourthColor);
+    border-radius: 10px;
+    padding: 5px;
+    width: 30%;
+    color: var(--fivColor);
+} 
+.section-cl-sec .section-cl-men .men-links a:hover{
+    background: var(--thirdColor);
+    color: #eee;
+}
+/* design clothes */
+.section-cl-sec .section-cl-men .clothes-section{
+    width: 100%;
+    background-color: var(--headerColor);
+    height: 100%;
+}
+.section-cl-sec .section-cl-men .clothes-section .image-all-cl{
+    display: flex;
+    flex-direction: row;
+    height: 265px;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.section-cl-sec .section-cl-men .clothes-section .image-all-cl img:first-child{
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.section-cl-sec .section-cl-men .clothes-section .image-all-cl .sec-imags{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    width: 50%;
+}
+.section-cl-sec .section-cl-men .clothes-section .image-all-cl .sec-imags #one{
+    width: 100%;
+    height: 58%;
+    border-radius: 10px;
+    margin-left: 3px;
+}
+.section-cl-sec .section-cl-men .clothes-section .image-all-cl .sec-imags #sec{
+    width: 100%;
+    height: 35%;
+    border-radius: 10px;
+    margin-left: 7px;
+}
+.section-cl-sec .section-cl-men .clothes-section .title-sec{
+    background: var(--thirdColor);
+    margin: 5px;
+    border-radius: 10px;
+}
+/* design product */
+.section-cl-sec .section-cl-men .clothes-section .products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin: 0 0 0 1%;
+}
+.section-cl-sec .section-cl-men .clothes-section .products .product{
+    display: flex;
+    flex-direction: column;
+    background: var(--el-color-danger-light-9);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 16%;
+    margin-left: 10px;
+}
+@media (max-width: 767px) {
+    .section-cl-sec .section-cl-men .clothes-section .products{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-cl-sec .section-cl-men .clothes-section .products .product{
+        width: 39%;
+    }
+    .section-cl-sec .section-cl-men .clothes-section .image-all-cl{
+        height: 6%;
+    }
+}
+.section-cl-sec .section-cl-men .clothes-section .products .product img{
+    width: 100%;
+    border-radius: 10px;
+}
+.section-cl-sec .section-cl-men .clothes-section .products .product .details-cl{
+    margin-top: 3px;
+}
+.section-cl-sec .section-cl-men .clothes-section .products .product .details-cl #star{
+    color: yellow;
+}
+.section-cl-sec .section-cl-men .clothes-section .products .product .details-cl #d-cl{
+    margin: 5px;
+}
+.section-cl-sec .section-cl-men .clothes-section .products .product .details-cl form{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+}
+.section-cl-sec .section-cl-men .clothes-section .products .product .details-cl form .sizes{
+    margin: 0 6%;
+}
+.section-cl-sec .section-cl-men .clothes-section .products .product .details-cl  #dp-cl{
+    background: red;
+    color: white;
+    border-radius: 10px;
+    padding: 1px;
+}
+.section-cl-sec .section-cl-men .clothes-section .products .product .details-cl #btn-add{
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: red;
+    color: #eee;
+    transition: .2s;
+}
+.section-cl-sec .section-cl-men .clothes-section .products .product .details-cl #btn-add:hover{
+    cursor: pointer;
+    background: #1da1f2;
+}
+
+
+
+
+
+/* design shose */
+.section-cl-sec .section-cl-men .shose-section{
+    width: 100%;
+    background-color: yellow;
+}
+
+/* End section inside section */

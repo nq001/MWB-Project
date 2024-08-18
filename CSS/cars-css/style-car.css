@@ -1,0 +1,154 @@
+:root {
+    --headerColor: #caf0f8;
+    --secColor: #90e0ef;
+    --thirdColor: #00b4d8;
+    --fourthColor: #0077b6;
+    --fivColor: #03045e;
+}
+.section-dc{
+    background: var(--headerColor);
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: var(--thirdColor);
+}
+/* desgin home */
+.section-dc .dept-home-car{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-dc .dept-home-car .info{
+    width: 40%;
+    text-align: center;
+}
+.section-dc .dept-home-car .info #title-home-car{
+    font-size: 22px;
+    background: var(--secColor);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+.section-dc .dept-home-car .info p{
+    padding: 10px;
+    margin: 5px;
+    word-spacing: 1px;
+}
+.section-dc .dept-home-car .info p span{
+    color: red;
+    font-weight: bolder;
+}
+.section-dc .dept-home-car .image-home-car{
+    width: 60%;
+}
+.section-dc .dept-home-car .image-home-car img{
+    width: 100%;
+    border-radius: 10px;
+}
+.section-dc .container-dc{
+    border-style: solid;
+    margin-top: 3px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: var(--fourthColor);
+    padding: 10px;
+}
+.section-dc .container-dc .sub-section-links{
+    background: var(--secColor);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.section-dc .container-dc .sub-section-links .name-sub-section{
+    padding: 5px;
+    margin: 5px;
+}
+.section-dc .container-dc .sub-section-links a{
+    background: var(--headerColor);
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--fourthColor);
+    border-color: var(--headerColor);
+    width: 42%;
+    text-align: center;
+    margin-left: 2px;
+}
+.section-dc .container-dc .sub-section-links a:hover{
+   background-color: var(--thirdColor);
+   color: #EEE;
+}
+/* phone */
+@media (max-width: 767px) {
+    .section-dc .container-dc .sub-section-links {
+        font-size: 10px;
+    }
+}
+.section-dc .container-dc .section-name{
+    padding: 10px;
+    text-align: center;
+    color: var(--fivColor);
+}
+.section-dc .container-dc .info-about-cars{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-dc .container-dc .info-about-cars .car-details{
+    margin: 5px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: var(--thirdColor);
+    padding: 7px;
+    width: 29%;
+    text-align: center;
+}
+@media (max-width: 767px){
+    .section-dc .container-dc .info-about-cars .car-details{
+        width: 100%;
+    }
+}
+.section-dc .container-dc .info-about-cars .car-details img{
+    width: 100%;
+    border-radius: 10px;
+}
+.section-dc .container-dc .info-about-cars .car-details .details{
+    padding: 5px;
+}
+.section-dc .container-dc .info-about-cars .car-details .details p{
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 2px;
+    border-color: var(--thirdColor);
+    color: var(--fivColor);
+}
+.section-dc .container-dc .info-about-cars .car-details .details .btns{
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: var(--fourthColor);
+}
+.section-dc .container-dc .info-about-cars .car-details .details .btns #btn{
+    width: 100%;
+    border-radius: 10px;
+    padding: 4px;
+    border-color: var(--headerColor);
+    background: var(--thirdColor);
+}
+.section-dc .container-dc .info-about-cars .car-details .details .btns #btn:hover{
+    cursor: pointer;
+    color: #ff0000;
+    background-color: var(--secColor);
+}

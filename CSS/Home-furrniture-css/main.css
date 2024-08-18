@@ -1,0 +1,143 @@
+.section-hf{
+    background: var(--headerColor);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.section-hf .intro-hf{
+    width: 40%;
+}
+.section-hf .intro-hf h1{
+    text-align: center;
+}
+.section-hf .intro-hf p{
+    text-align: center;
+    margin-top: 15px;
+}
+.section-hf .image-home{
+    width: 42%;
+    
+}
+.section-hf .image-home img{
+    width: 100%;
+    border-radius: 10px;
+}   
+
+/* title-section design */
+
+.section-hf-2 .title-section{
+    text-align: center;
+    font-size: 20px;
+    padding: 6px;
+    letter-spacing: 1px;
+    background: var(--thirdColor);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/* products-Design */
+#prod{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.section-hf-2{
+    background: var(--headerColor);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.section-hf-2 .links-hf{
+    display: flex;
+    justify-content: space-around;
+    background: var(--secColor);
+    padding: 10px;
+    border-radius: 10px;
+}
+.section-hf-2 .links-hf a{
+    text-decoration: none;
+    color: #1d765b;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    border-color: var(--headerColor);
+}
+.section-hf-2 .links-hf a:hover{
+    background: var(--thirdColor);
+    color: #eee;
+    cursor: pointer;
+}
+
+.section-hf-2 .products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-hf-2 .products .product{
+    text-align: center;
+    margin: 10px;
+    background: var(--secColor);
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+}
+.section-hf-2 .products .product .name-hf{
+    font-size: 15px;
+}
+.section-hf-2 .products .product #price{
+    background: red;
+    padding: 5px;
+    margin: 5px 0;
+    color: #eee;
+    border: none;
+    border-radius: 10px;
+}
+.section-hf-2 .products .product img{
+    width: 100%;
+    border-radius: 10px;
+}
+.section-hf-2 .products .product #stars{
+    color: #f9f906;
+}
+.section-hf-2 .products .product #btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+.section-hf-2 .products .product #btn:hover{
+    cursor: pointer;
+    background: var(--fourthColor);
+    color: #eee;
+}
+
+/* phone Design */
+@media (max-width: 800px){
+    .section-hf{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-hf .intro-hf{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+    }
+    .section-hf .intro-hf p{
+        display: none;
+    }
+    .section-hf .image-home{
+        width: 100%;
+    }
+    /* products */
+    .section-hf-2 .products .product{
+        width: 39%;
+        
+    }
+}
